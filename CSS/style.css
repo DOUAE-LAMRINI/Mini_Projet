@@ -1,0 +1,77 @@
+body {
+    font-family: "Lato", sans-serif;
+    margin: 70px 0;
+    background: #F2D7D5;
+}
+
+.divider {
+    width: 100px;
+    height: 2px;
+    background: #F5F5DC;
+    margin: 0 auto;
+}
+
+.heading {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+h2 {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #dca6d0; 
+}
+
+#contact-form {
+    font-size: 20px;
+    background: white;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.blue {
+    color: rgba(14, 14, 241, 0.856);
+}
+
+.form-control {
+    height: 50px;
+    font-size: 18px;
+}
+
+.comments {
+    font-size: 18px;
+    font-style: italic;
+    color: red;
+    height: 25px;
+}
+
+#contact-form input[type=submit] {
+    margin: 40px auto; 
+    display: block;
+}
+
+.butten {
+    border: 1px solid #ddd;
+    background: #dca6d0;
+    color: #F5F5DC;
+    width: 100%;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 18px;
+    display: flex;
+    border-radius: 5px;
+    justify-content: center;
+    transition: all 0.3s ease-in 0s;
+}
+
+.butten:hover {
+    background: #F2D7D5;
+    border-color: bisque;
+}
+
+.thank-you {
+    text-align: center;
+    margin: 15px;
+    font-size: bold;
+    font-weight: 22px;
+}
